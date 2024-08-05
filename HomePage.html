@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Fight Against Poverty</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #2c3e50;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px 30px;
+    }
+    .navbar-brand {
+      font-size: 1.8em;
+      color: white !important;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand img {
+      height: 60px;
+      margin-right: 15px;
+    }
+    .nav-link {
+      color: white !important;
+      margin: 0 10px;
+      transition: color 0.3s ease, background 0.3s ease;
+      padding: 8px 20px;
+      border-radius: 8px;
+    }
+    .nav-link:hover {
+      color: #ffd700 !important;
+      background: rgba(255, 255, 255, 0.2);
+      text-decoration: none;
+    }
+    .navbar-toggler-icon {
+      background-image: url('https://img.icons8.com/ios-filled/50/ffffff/menu.png');
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1520813792240-56fc4a3765a7') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero h1 {
+      font-size: 4em;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero p {
+      font-size: 1.5em;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .statistics, .stories, .cta, .contact {
+      padding: 50px 0;
+      text-align: center;
+    }
+    .statistics .stat, .stories .story, .cta .action, .contact .social {
+      margin: 20px;
+    }
+    .statistics .stat img, .stories .story img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .cta .btn {
+      margin: 10px;
+      font-size: 1.2em;
+    }
+    .statistics {
+      background-color: #fff;
+    }
+    .stories {
+      background-color: #f8f9fa;
+    }
+    .cta {
+      background-color: #343a40;
+      color: white;
+    }
+    .contact {
+      background-color: #282828;
+      color: white;
+    }
+    .contact .social img {
+      height: 40px;
+      margin: 0 10px;
+    }
+    .footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+    .footer .footer-content {
+      margin-bottom: 20px;
+    }
+    .footer .footer-content a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+    .footer .footer-content a:hover {
+      color: #ffd700;
+    }
+    .footer .social img {
+      height: 30px;
+      margin: 0 10px;
+      transition: transform 0.3s ease;
+    }
+    .footer .social img:hover {
+      transform: scale(1.2);
+    }
+    .footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+      <img src="https://via.placeholder.com/100x50" alt="Logo">
+      Fight Poverty
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Statistics</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Get Involved</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Success Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>Join the Fight Against Poverty</h1>
+      <p>Together, we can make a difference.</p>
+      <div>
+        <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+        <a href="#" class="btn btn-danger btn-lg">Donate</a>
+        <a href="#" class="btn btn-success btn-lg">Volunteer</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Statistics -->
+  <section class="statistics">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 stat">
+          <img src="https://via.placeholder.com/300x200" alt="Statistic 1">
+          <p>Global Poverty Rate</p>
+        </div>
+        <div class="col-md-4 stat">
+          <img src="https://via.placeholder.com/300x200" alt="Statistic 2">
+          <p>Number of People Helped</p>
+        </div>
+        <div class="col-md-4 stat">
+          <img src="https://via.placeholder.com/300x200" alt="Statistic 3">
+          <p>Funds Raised</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Stories -->
+  <section class="stories">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 story">
+          <img src="https://via.placeholder.com/300x300" alt="Story 1">
+          <p>Story 1 Summary</p>
+        </div>
+        <div class="col-md-3 story">
+          <img src="https://via.placeholder.com/300x300" alt="Story 2">
+          <p>Story 2 Summary</p>
+        </div>
+        <div class="col-md-3 story">
+          <img src="https://via.placeholder.com/300x300" alt="Story 3">
+          <p>Story 3 Summary</p>
+        </div>
+        <div class="col-md-3 story">
+          <img src="https://via.placeholder.com/300x300" alt="Story 4">
+          <p>Story 4 Summary</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 action">
+          <a href="#" class="btn btn-primary btn-lg">Get Involved</a>
+        </div>
+        <div class="col-md-4 action">
+          <a href="#" class="btn btn-danger btn-lg">Donate</a>
+        </div>
+        <div class="col-md-4 action">
+          <a href="#" class="btn btn-success btn-lg">Volunteer</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Us -->
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-2 social">
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="https://img.icons8.com/fluent/48/ffffff/instagram-new.png" alt="Instagram">
+          </a>
+        </div>
+        <div class="col-md-2 social">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="https://img.icons8.com/fluent/48/ffffff/facebook-new.png" alt="Facebook">
+          </a>
+        </div>
+        <div class="col-md-2 social">
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="https://img.icons8.com/fluent/48/ffffff/twitter.png" alt="Twitter">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+
+    <div class="social">
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/ffffff/instagram-new.png" alt="Instagram">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/ffffff/facebook-new.png" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/ffffff/twitter.png" alt="Twitter">
+      </a>
+    </div>
+    <p>&copy; 2024 Fight Poverty. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
