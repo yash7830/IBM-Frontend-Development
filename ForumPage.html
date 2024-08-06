@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forum</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #2c3e50;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px 30px;
+    }
+    .navbar-brand {
+      font-size: 1.8em;
+      color: white !important;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand img {
+      height: 60px;
+      margin-right: 15px;
+    }
+    .nav-link {
+      color: white !important;
+      margin: 0 10px;
+      transition: color 0.3s ease, background 0.3s ease;
+      padding: 8px 20px;
+      border-radius: 8px;
+    }
+    .nav-link:hover {
+      color: #ffd700 !important;
+      background: rgba(255, 255, 255, 0.2);
+      text-decoration: none;
+    }
+    .navbar-toggler-icon {
+      background-image: url('https://img.icons8.com/ios-filled/50/ffffff/menu.png');
+    }
+    .section-title {
+      text-align: center;
+      padding: 60px 0;
+      background: linear-gradient(45deg, #34495e, #2c3e50);
+      color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .section-title h2 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .section-title p {
+      font-size: 1.2em;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    .content-section {
+      padding: 60px 0;
+    }
+    .discussion-list .card {
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .discussion-list .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .card-body h5 {
+      font-size: 1.4em;
+      font-weight: 600;
+    }
+    .card-body p {
+      font-size: 1.1em;
+      color: #555;
+    }
+    .card-body a.btn {
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-size: 1em;
+      font-weight: 600;
+    }
+    .footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: #ffd700;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+      <img src="https://via.placeholder.com/100x50" alt="Logo">
+      Fight Poverty
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Statistics</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Get Involved</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Success Stories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section Title -->
+  <section class="section-title">
+    <div class="container">
+      <h2>Community Forum</h2>
+      <p>Join the discussion and connect with others working to fight poverty.</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h3>Discussion Threads</h3>
+          <div class="discussion-list">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">How to Start a Community Garden Project?</h5>
+                <p class="card-text">Share your ideas and experiences on starting a community garden to support local food security.</p>
+                <a href="#" class="btn btn-primary">Join Discussion</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Best Practices for Fundraising Events</h5>
+                <p class="card-text">Discuss tips and strategies for organizing successful fundraising events.</p>
+                <a href="#" class="btn btn-primary">Join Discussion</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Volunteer Opportunities in Urban Areas</h5>
+                <p class="card-text">Connect with others to find or share volunteer opportunities in urban communities.</p>
+                <a href="#" class="btn btn-primary">Join Discussion</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Educational Resources for Poverty Awareness</h5>
+                <p class="card-text">Share and discuss educational resources that raise awareness about poverty.</p>
+                <a href="#" class="btn btn-primary">Join Discussion</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Microfinance and Entrepreneurship</h5>
+                <p class="card-text">Discuss the role of microfinance in empowering entrepreneurs in impoverished communities.</p>
+                <a href="#" class="btn btn-primary">Join Discussion</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Ask a Question</h3>
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="questionTitle">Title</label>
+                  <input type="text" class="form-control" id="questionTitle" placeholder="Enter your question title">
+                </div>
+                <div class="form-group">
+                  <label for="questionDetails">Details</label>
+                  <textarea class="form-control" id="questionDetails" rows="5" placeholder="Provide details about your question"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Post Question</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd 
